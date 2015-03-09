@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ROOOF Guía de estilos</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/guide.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/layout.css" rel="stylesheet" type="text/css" media="all">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<section class="colores">
+    <h1 class="guide"> Colores</h1>
+    <div>
+        <p class="guide">Cuerpo de texto y titulares principales</p>
+        <div class="box-color box-color1">
+            <h3 class="guide">#333333 / rgb (224,224,224)</h3>
+        </div>
+        <p class="guide">Botones principales / Titulares secundarios / Items menú registro</p>
+        <div class="box-color box-color2">
+            <h3 class="guide">#ff3766 / rgb (255, 55, 102)</h3>
+        </div>
+        <p class="guide">Color de las líneas / mouse overs textos</p>
+        <div class="box-color box-color3">
+            <h3 class="guide">#8e8e8e / rgb (142, 142, 142)</h3>
+        </div>
+        <p class="guide">Color de fondo</p>
+        <div class="box-color box-color4">
+            <h3 class="guide">#eaeaea / rgb (229, 229, 229)</h3>
+        </div>
+         <p class="guide">Texto sobre fotos o fondos de color</p>
+        <div class="box-color box-color5">
+            <h3 class="guide">white</h3>
+        </div>
+
+
+
+    </div>
+</section>
+
+<section class="tipografia">
+
+    <div class="tipo">
+    <h1 class="guide"> Tipografía</h1>
+    <h2 class="guide">Font family</h2>
+    <div class="tipo">
+        <p class="guide">Para elementos principales: Menú, titulares, título eventos, etiquetas, botones.</p>
+        <h3 id="font-dosis"> font-family: 'Dosis', sans-serif; </h3>
+    </div>
+     <div class="tipo">
+        <p class="guide">Para elementos secundarios: Titulares secundarios, botones secundarios, contenido puramente informativo.</p>
+        <h3> font-family: 'PT Sans', sans-serif; </h3>
+    </div>
+    <div class="tipo">
+        <p class="guide">Elementos terciarios: Cuerpos de texto relaccionado con eventos y usuarios.</p>
+        <h3 id="font-ptserif"> font-family: 'PT Serif', serif; </h3>
+    </div>
+
+    <h2 class="guide">Headings</h2>
+        <div class="element">
+            <h1>Titular Principal h1</h1>
+            <h2>Titular Principal h2</h2>
+            <h3>Titular Secundario h3</h3>
+            <p>Texto de párrafo de prueba. Esto es un párrafo. Como está más pequeñito no hace falta que lo leas. De hecho casi nadie lo hace. Sirve básicamente para crear una mancha en la pantalla. </p>
+        </div>
+        <textarea>
+<h1>Titular Principal h1</h1>
+<h2>Titular Principal h2</h2>
+<h3>Titular Secundario h3</h3>
+<p>Texto de párrafo de prueba. Esto es un párrafo. Como está más pequeñito no hace falta que lo leas. De hecho casi nadie lo hace. Sirve básicamente para crear una mancha en la pantalla. </p>
+        </textarea>
+        <textarea>
+h1, .titulo h2{
+    color: #333;
+    font-size: 34px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+h2{
+  color: #ff3766;
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+h3{
+    color: #ff3766;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p{
+  color: #333;
+  font-size: 16px;
+  font-family: 'PT Serif', serif;
+  line-height: 1.8em;
+}
+        </textarea>
+
+
+    <h2 class="guide">Título sección Home / Título página interior</h2>
+
+
+    <div class="element">
+        <div class="titulo">
+                <h2>NO te aburras EL FIN DE SEMANA</h2>
+                <p>en ROOOF tenemos planes para ti</p>
+        </div>
+        <textarea>
+<div class="titulo">
+    <h2>No te aburras el fin de semana</h2>
+    <p>en ROOOF tenemos planes para ti</p>
+</div>
+        </textarea>
+        <textarea name="" id="" cols="" rows="">
+.titulo h2 {
+    font-size: 34px;
+    font-weight: 300;
+    color: #333;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.titulo p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ff3766;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 60px;
+}
+        </textarea>
+
+</div>
+
+    <h2 class="guide">Subtítulo y párrafo</h2>
+
+    <div class="element">
+
+        <div class="icon-text">
+            <h3>Elige el plan</h3>
+            <p>Escoge el evento que más te guste. Música, gastronomía, teatro...</p>
+        </div>
+
+        <textarea>
+<div class="icon-text">
+    <h3>Elige el plan</h3>
+    <p>Escoge el evento que más te guste. Música, gastronomía, teatro...</p>
+</div>
+        </textarea>
+
+        <textarea>
+.icon-text {
+    float: left;
+    width: 29%;
+    text-align: center;
+    margin: 20px 18px;
+}
+
+.icon-text h3 {
+    font-size: 20px;
+    color: #ff3766;
+    font-weight: 500;
+}
+
+.icon-text p {
+    font-size: 16px;
+    font-family: 'PT Serif', serif;
+    color: #333;
+    line-height: 1.8em;
+}
+        </textarea>
+
+    </div>
+
+</section>
+
+<section class="componentes">
+    <h1 class="guide">Componentes</h1>
+    <h2 class="guide">botones</h2>
+    <div class="element">
+        <br>
+        <div>
+            <div class="button__wrap"><a href="evento.html" class="button">BUSCAR EVENTOS</a></div>
+        </div>
+        <br>
+        <textarea>
+<div class="button__wrap">
+    <a href="#" class="button">Buscar eventos</a>
+</div>
+        </textarea>
+        <textarea>
+.button__wrap {
+    text-align: center;
+}
+.button__wrap {
+    text-align: center;
+}
+.button {
+    background: #ff3766;
+    border: 1px transparent;
+    color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 5px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+.button:hover{
+    background: white;
+    border: solid 1px  #ff3766;
+    color:  #ff3766;
+}
+        </textarea>
+
+    </div>
+    <div class="element">
+
+    </div>
+</section>
+
+
+
+
+</body>
+</html>
